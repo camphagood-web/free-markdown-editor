@@ -1,23 +1,23 @@
 /* Common CSS use by both light and dark themes */
 :root {
   --titleBarHeight: 32px;
-  --editorAreaWidth: 750px;
+  --editorAreaWidth: 850px;
 
   /*editor*/
   /*Theme color cluster*/
-  --themeColor: rgba(33, 181, 111, 1);
-  --themeColor90: rgba(33, 181, 111, 0.9);
-  --themeColor80: rgba(33, 181, 111, 0.8);
-  --themeColor70: rgba(33, 181, 111, 0.7);
-  --themeColor60: rgba(33, 181, 111, 0.6);
-  --themeColor50: rgba(33, 181, 111, 0.5);
-  --themeColor40: rgba(33, 181, 111, 0.4);
-  --themeColor30: rgba(33, 181, 111, 0.3);
-  --themeColor20: rgba(33, 181, 111, 0.2);
-  --themeColor10: rgba(33, 181, 111, 0.1);
+  --themeColor: rgba(66, 139, 202, 1);
+  --themeColor90: rgba(66, 139, 202, 0.9);
+  --themeColor80: rgba(66, 139, 202, 0.8);
+  --themeColor70: rgba(66, 139, 202, 0.7);
+  --themeColor60: rgba(66, 139, 202, 0.6);
+  --themeColor50: rgba(66, 139, 202, 0.5);
+  --themeColor40: rgba(66, 139, 202, 0.4);
+  --themeColor30: rgba(66, 139, 202, 0.3);
+  --themeColor20: rgba(66, 139, 202, 0.2);
+  --themeColor10: rgba(66, 139, 202, 0.1);
   --highlightThemeColor: var(--themeColor);
 
-  --highlightColor: rgba(33, 181, 111, 0.4);
+  --highlightColor: rgba(66, 139, 202, 0.4);
   --selectionColor: rgba(0, 0, 0, 0.1);
   --editorColor: #4d4d4d;
   --editorColor80: #333333;

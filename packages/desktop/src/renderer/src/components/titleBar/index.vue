@@ -19,7 +19,7 @@
         class="title"
         @dblclick.stop="toggleMaxmizeOnMacOS"
       >
-        <span v-if="!filename">MarkText</span>
+        <span v-if="!filename">Markdown Editor</span>
         <span v-else>
           <span
             class="save-dot"

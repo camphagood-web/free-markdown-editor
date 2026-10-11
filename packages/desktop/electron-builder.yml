@@ -1,5 +1,5 @@
-appId: com.github.marktext.marktext
-productName: MarkText
+appId: com.local.markdowneditor
+productName: Markdown Editor
 directories:
   buildResources: build
   output: ../../dist
@@ -139,7 +139,7 @@ nsis:
   perMachine: false
   include: windows/installer.nsh
 mac:
-  artifactName: 'marktext-mac-${arch}-${version}.${ext}'
+  artifactName: 'markdown-editor-mac-${arch}-${version}.${ext}'
   entitlementsInherit: build/mac/entitlements.mac.plist
   extendInfo:
     - NSCameraUsageDescription: Application requests access to the device's camera.
@@ -151,7 +151,7 @@ mac:
     - dmg
     - zip
 dmg:
-  artifactName: 'marktext-mac-${arch}-${version}.${ext}'
+  artifactName: 'markdown-editor-mac-${arch}-${version}.${ext}'
   contents:
     - x: 410
       y: 240

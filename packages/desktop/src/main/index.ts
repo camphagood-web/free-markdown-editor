@@ -15,6 +15,8 @@ import { t } from './i18n'
 import { registerSandboxIpcHandlers } from './ipc'
 import { setPlantumlServerSource } from './ipc/diagram'
 
+app.setName('Markdown Editor')
+
 // Set version strings into global and process.versions
 process.env.MARKTEXT_VERSION = MARKTEXT_VERSION
 process.env.MARKTEXT_VERSION_STRING = MARKTEXT_VERSION_STRING
@@ -54,7 +56,7 @@ initializeLogger(appEnvironment)
 // Handles native level crashes
 crashReporter.start({
   companyName: '',
-  productName: 'MarkText',
+  productName: 'Markdown Editor',
   uploadToServer: false, // collect locally
   compress: true
 })
@@ -86,7 +88,7 @@ if (!process.mas && !import.meta.env.DEV) {
 registerSandboxIpcHandlers()
 
 // Windows-specific AppUserModelID
-electronApp.setAppUserModelId('com.electron.marktext')
+electronApp.setAppUserModelId('com.local.markdowneditor')
 
 // Dev shortcuts and reload suppression
 app.on('browser-window-created', (_, window) => {

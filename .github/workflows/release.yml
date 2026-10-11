@@ -1,4 +1,4 @@
-name: Release MarkText
+name: Release Free Markdown Editor
 
 on:
   push:
